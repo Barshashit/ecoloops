@@ -1,0 +1,61 @@
+footer {
+  font-family: sans-serif;
+  margin-top: 40px;
+}
+
+/* Light Blue Feedback */
+.feedback-section {
+  background-color: #eef5ff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.feedback-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feedback-section button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.feedback-section button:hover {
+  background-color: #f1f1f1;
+}
+
+/* Deep Blue Link Grid */
+.links-section {
+  background-color: #002f6c;
+  color: white;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.links-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.links-section a:hover {
+  text-decoration: underline;
+}
+
+/* Copyright */
+footer .copyright {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  background-color: #002f6c;
+  border-top: 1px solid #ccc;
+}
